@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Aperçu Signature</title>
+<style>
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f9f9f9; padding: 20px; }
+    .email-container { background-color: #fff; padding: 20px; border: 1px solid #ddd; border-radius: 5px; max-width: 600px; }
+    .signature {
+        margin-top: 40px;
+        padding-top: 15px;
+        border-top: 1px solid #e0e0e0;
+        width: 100%;
+        display: flex;
+        flex-direction: column; /* Changed to column to put info above logo */
+        gap: 15px;
+    }
+    .signature-info {
+        font-family: Arial, sans-serif;
+    }
+    .name {
+        font-weight: bold;
+        color: #2c3e50;
+        font-size: 15px;
+        margin-bottom: 2px;
+    }
+    .title {
+        color: #7f8c8d;
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .contact {
+        color: #555;
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    .contact a {
+        color: #2980b9;
+        text-decoration: none;
+    }
+    .logo img {
+        display: block;
+        max-height: 100px; /* Increased to 100px for larger width and height */
+    }
+</style>
+</head>
+<body>
+
+<div class="email-container">
+    <p>Bonjour,</p>
+    <p>Voici un exemple de contenu d'email pour vous montrer le rendu de la signature.</p>
+    <p>Cordialement,</p>
+
+    <div class="signature">
+        <div class="signature-info">
+            <div class="name">Geoffrey Prelium</div>
+            <div class="title">Développeur / Consultant Odoo</div>
+            <div class="contact">
+                📞 +33 1 23 45 67 89<br>
+                ✉️ <a href="mailto:geoffrey@prelium.com">geoffrey@prelium.com</a><br>
+                🌐 <a href="https://www.prelium.com">www.prelium.com</a>
+            </div>
+        </div>
+        <div class="logo">
+            <img src="files/prelium-logo-filaire-signature.gif" alt="Prelium Logo">
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
